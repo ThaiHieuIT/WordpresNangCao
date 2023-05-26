@@ -1,0 +1,37 @@
+.site-header {
+    background-color: #fff;
+}
+.main-navigation ul.nav-menu  {
+    margin-left: 56px;
+}
+.site-branding img {
+    position: absolute;
+    left: 10px;
+}
+.site-header-cart .cart-contents {
+    right: -85px;
+}
+#woocommerce-product-search-field-0 {
+    position: relative;
+    top: 80px;
+    right: 206px;
+}
+.site-search .widget_product_search form::before {
+    position: absolute;
+    top: 97px !important;
+    left: -191px !important;
+    z-index: 3;
+}
+.attachment-woocommerce_thumbnail:hover {
+    transform:scale(1.1);
+}
+.product-category img:hover {
+    transform: scale(1.1);
+}
+.text-uppercase,.mb-4 {
+    color: #fff;
+    font-weight: 500;
+}
+.font-weight-normal tr td{
+    background-color: transparent !important;
+}
